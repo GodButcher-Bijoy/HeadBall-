@@ -1,0 +1,6 @@
+if (saveGameExists) {
+            if(!n) iText(CONTINUE_X + 125, CONTINUE_Y + 25, "CONTINUE", GLUT_BITMAP_HELVETICA_18);
+        } else {
+            // Display "NO SAVED GAMES" text if no save game exists
+            iText(CONTINUE_X + (BTN_W / 2) - 80, CONTINUE_Y + (BTN_H / 2) - 10, "NO SAVED GAMES", GLUT_BITMAP_HELVETICA_18);
+        }
